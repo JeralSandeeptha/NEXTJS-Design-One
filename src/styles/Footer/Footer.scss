@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    min-height: 15vh;
+    background-color: #333333;
+
+    .footer-inner {
+        max-width: 1200px;
+        min-height: 20vh;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+
+        h5 {
+            color: white;
+            font-size: 12px !important;
+            text-align: center;
+            
+            span {
+                color: #AFD6DB;
+                text-decoration: underline;
+            }
+        }
+    }
+}

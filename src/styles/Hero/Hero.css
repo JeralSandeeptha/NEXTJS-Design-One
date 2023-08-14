@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+.hero {
+  width: 100%;
+  min-height: 55vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../images/black-white-exterior-building.jpg");
+  padding: 40px 0;
+}
+.hero .hero-inner {
+  max-width: 1200px;
+  min-height: 55vh;
+  margin: 0 auto;
+}
+.hero .hero-inner .header {
+  font-weight: bolder;
+  font-size: 48px;
+  font-family: "Ubuntu", sans-serif !important;
+}
+.hero .hero-inner .para {
+  max-width: 330px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+  .hero {
+    padding: 40px 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hero .hero-inner .header {
+    font-size: 40px;
+  }
+  .hero .hero-inner .para {
+    font-size: 18px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero .hero-inner .header {
+    font-size: 35px;
+  }
+  .hero .hero-inner .para {
+    font-size: 16px !important;
+  }
+}/*# sourceMappingURL=Hero.css.map */

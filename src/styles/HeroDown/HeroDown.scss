@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.hero-down {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1A1A1A;
+    color: white !important;
+
+    .hero-down-inner {
+        min-height: 100vh;
+        margin: 0 auto;
+        max-width: 1200px;
+        padding-bottom: 50px;
+
+        .top {
+            padding-top: 30px;
+            min-height: 30vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+
+            h4 {
+                font-size: 36px;
+                font-weight: 700;
+                font-family: 'Ubuntu', sans-serif;
+            }
+
+            button {
+                margin-top: 50px;
+                padding: 20px 30px;
+                color: #1A1A1A;
+                margin-top: 20px;
+                font-weight: 600;
+                background-color: #20F255;
+
+                &:hover {
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+
+        .bottom {
+            min-height: 60vh;
+            display: grid;
+            gap: 50px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+            .box{
+                padding: 23px 30px;
+
+                .arrow {
+                    width: 35px;
+                    height: 35px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #20F255;
+                    border-radius: 100%;
+                    margin-bottom: 20px;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+
+                p {
+
+                    span {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .hero-down {
+    
+        .hero-down-inner {
+
+            .top {
+                padding-left: 30px;
+                padding-right: 30px;
+    
+                h4 {
+
+                }
+    
+                button {
+    
+                    &:hover {
+
+                    }
+                }
+            }
+    
+            .bottom {
+                margin-top: 30px;
+    
+                .box{
+    
+                    .arrow {
+    
+                        img {
+                            
+                        }
+                    }
+    
+                    p {
+    
+                        span {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-down {
+    
+        .hero-down-inner {
+
+            .top {
+    
+                h4 {
+                    font-size: 30px;
+                }
+    
+                button {
+                    font-size: 18px;
+    
+                    &:hover {
+
+                    }
+                }
+            }
+    
+            .bottom {
+    
+                .box{
+    
+                    .arrow {
+    
+                        img {
+                            
+                        }
+                    }
+    
+                    p {
+    
+                        span {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hero-down {
+    
+        .hero-down-inner {
+
+            .top {
+    
+                h4 {
+                }
+    
+                button {
+    
+                    &:hover {
+
+                    }
+                }
+            }
+    
+            .bottom {
+                gap: 10px;
+    
+                .box{
+    
+                    .arrow {
+    
+                        img {
+                            
+                        }
+                    }
+    
+                    p {
+    
+                        span {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

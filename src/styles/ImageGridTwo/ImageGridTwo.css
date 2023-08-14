@@ -1,0 +1,49 @@
+.outer {
+  width: 100%;
+  min-height: 75vh;
+}
+.outer .inner {
+  width: 100%;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.outer .inner .image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.outer .inner .img1 {
+  background-image: url("../../images/black-white-exterior-building.jpg");
+}
+.outer .inner .img2 {
+  background-image: url("../../images/pexels-yender-fonseca-10821956.jpg");
+}
+.outer .inner .img3 {
+  background-image: url("../../images/pexels-jeandaniel-francoeur-12842811.jpg");
+}
+.outer .inner .img4 {
+  background-image: url("../../images/pexels-photo-3735354.jpeg");
+}
+.outer .inner .img5 {
+  background-image: url("../../images/pexels-toms-monteiro-4107897.jpg");
+}
+.outer .inner .img6 {
+  background-image: url("../../images/pexels-guillaume-meurice-2815033.jpg");
+}
+
+@media screen and (max-width: 1048px) {
+  .outer .inner {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 658px) {
+  .outer .inner {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .outer .inner .image {
+    min-height: 40vh;
+  }
+}/*# sourceMappingURL=ImageGridTwo.css.map */

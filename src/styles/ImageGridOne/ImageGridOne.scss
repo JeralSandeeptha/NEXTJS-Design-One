@@ -1,0 +1,102 @@
+.outer {
+    width: 100%;
+    min-height: 75vh;
+
+    .inner {
+        width: 100%;    
+        min-height: 80vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .image{
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            &:hover{
+                
+            }
+        }
+
+        .img1 {
+            background-image: url('../../images/pexels-alexander-ermakov-12083872.jpg');
+        }
+        .img2 {
+            background-image: url('../../images/a33c29b4-0a40-4d00-929c-4a3b0db90e08.jpg');
+        }
+        .img3 {
+            background-image: url('../../images/pexels-gdtography-911758-Copy.jpg');
+        }
+        .img4 {
+            background-image: url('../../images/pexels-guillaume-meurice-2815033.jpg');
+        }
+        .img5 {
+            background-image: url('../../images/pexels-toms-monteiro-4107897.jpg');
+        }
+        .img6 {
+            background-image: url('../../images/low-angle-shot-creative-modern-building-with-outstanding-architectural-twists.jpg');
+        }
+    }
+}
+
+@media screen and (max-width: 1048px) {
+    .outer {
+    
+        .inner {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+    
+            .image{
+    
+                &:hover{
+                    
+                }
+            }
+    
+            .img1 {
+            }
+            .img2 {
+            }
+            .img3 {
+            }
+            .img4 {
+            }
+            .img5 {
+            }
+            .img6 {
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 658px) {
+    .outer {
+    
+        .inner {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+            .image{
+                min-height: 40vh;
+    
+                &:hover{
+
+                }
+            }
+    
+            .img1 {
+            }
+            .img2 {
+            }
+            .img3 {
+            }
+            .img4 {
+            }
+            .img5 {
+            }
+            .img6 {
+            }
+        }
+    }
+}
+    

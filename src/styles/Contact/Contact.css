@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+.contact {
+  width: 100%;
+  min-height: 50vh;
+  background-color: #1A1A1A;
+  color: white;
+  padding-bottom: 50px;
+}
+.contact .contact-inner {
+  margin: 0 auto;
+  min-height: 50vh;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact .contact-inner .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.contact .contact-inner .left div h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.contact .contact-inner .left div h5 {
+  font-weight: bold;
+}
+.contact .contact-inner .left h3 {
+  font-style: 24px;
+}
+.contact .contact-inner .left h4 {
+  font-style: 24px;
+  font-weight: 700;
+  color: #20F255;
+}
+.contact .contact-inner .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.contact .contact-inner .right .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact .contact-inner .right .top h3 {
+  background-color: #20F255;
+  color: #1A1A1A;
+  padding: 25px 30px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.contact .contact-inner .right .top h3:hover {
+  background-color: #1A1A1A;
+  color: white;
+}
+.contact .contact-inner .right .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.contact .contact-inner .right .bottom h2 {
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+}
+.contact .contact-inner .right .bottom h5 {
+  font-style: 24px;
+}
+.contact .contact-inner .right .bottom .email {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.contact .contact-inner .right .bottom .email .email-input {
+  width: 100%;
+  height: 50px;
+  outline: none;
+  padding: 10px 15px;
+}
+.contact .contact-inner .right .bottom .email button {
+  background-color: #20F255;
+  color: #1A1A1A;
+  padding: 10px 15px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1330px) {
+  .contact {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .contact .contact-inner {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact .contact-inner {
+    grid-template-columns: 1fr;
+  }
+  .contact .contact-inner .left h3 {
+    margin-bottom: 20px;
+  }
+  .contact .contact-inner .right .top {
+    margin-bottom: 30px;
+  }
+}/*# sourceMappingURL=Contact.css.map */

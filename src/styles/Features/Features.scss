@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.features {
+    width: 100%;
+    min-height: 75vh;
+    background-color: #1A1A1A;
+
+    .features-inner {
+        min-height: 75vh;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .header {
+            color: white;
+            font-size: 36px;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: 800;
+            margin-bottom: 30px;
+        }
+
+        .bottom {
+            width: 100%;
+            min-height: 40vh;
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+            .box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                padding: 5px 30px;
+
+                .main {
+                    font-weight: bold;
+                    font-size: 72px;
+                }
+
+                .sub {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .features {
+        padding-right: 30px;
+        padding-left: 30px;
+
+    .features-inner {
+
+        .header {
+
+        }
+
+        .bottom {
+
+            .box {
+
+                .main {
+
+                }
+
+                .sub {
+
+                }
+            }
+        }
+    }
+}
+}
+
+@media screen and (max-width: 786px) {
+    .features {
+
+        .features-inner {
+
+            .header {
+                font-size: 30px;
+            }
+
+            .bottom {
+
+                .box {
+                    min-height: 200px;
+
+                    .main {
+                        font-size: 40px;
+                    }
+
+                    .sub {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

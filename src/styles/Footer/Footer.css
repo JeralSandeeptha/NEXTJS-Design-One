@@ -1,0 +1,24 @@
+.footer {
+  width: 100%;
+  min-height: 15vh;
+  background-color: #333333;
+}
+.footer .footer-inner {
+  max-width: 1200px;
+  min-height: 20vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .footer-inner h5 {
+  color: white;
+  font-size: 12px !important;
+  text-align: center;
+}
+.footer .footer-inner h5 span {
+  color: #AFD6DB;
+  text-decoration: underline;
+}/*# sourceMappingURL=Footer.css.map */
